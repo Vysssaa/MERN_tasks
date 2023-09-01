@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 5</title>
+</head>
+<body>
+    <h1 style="color: blue;text-align: center;">Registration form</h1>
+    <form align="center">
+    <table align="center" border="2px" cellspacing="0px">
+        <tr>
+            <th>First Name</th>
+            <td><input type="text" id="fname" name="fname" size="60%"></td>
+        </tr>
+        <tr>
+            <th>Last Name</th>
+            <td><input type="text" id="lname" name="lname" size="60%"></td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td><input type="text" id="email" name="email" size="60%"></td>
+        </tr>
+        <tr>
+            <th>Password</th>
+            <td><input type="password" id="pass" name="pass" size="60%"></td>
+        </tr>
+        <tr>
+            <th>Re-enter Password</th>
+            <td><input type="password" id="rpass" name="rpass" size="60%"></td>
+        </tr>
+        <tr>
+            <th rowspan="2">Gender</th>
+            <td align="left"><input type="radio" id="male" name="gender" value="male">Male</td>
+        </tr>
+        <tr>
+            <td align="left"><input type="radio" id="female" name="gender" value="female">Female</td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td align="left"><input type="number" id="age" name="age"></td>
+        </tr>
+        <tr>
+            <th>Phone Number</th>
+            <td align="left"><input type="number" id="phno" name="phno"></td>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td><input type="text" id="addr" name="addr" size="60%" style="height: 100px;"></td>
+        </tr>
+        <tr>
+            <th>State</th>
+            <td><input type="text" id="state" name="state" size="60%"></td>
+        </tr>
+        <tr>
+            <th>Country</th>
+            <td align="left"><select id="cont" name="cont">
+                <option value="" selected>Choose your country</option>
+                <option value="ind">India</option>
+                <option value="oth">Others</option>
+            </td>
+        </tr>
+        <tr>
+            <th>Languages Known</th>
+            <td align="left">
+                <input type="checkbox" name="lang1" id="lang1" value="eng">English
+                <input type="checkbox" name="lang2" id="lang2" value="kan">Kannada
+                <input type="checkbox" name="lang3" id="lang3" value="hin">Hindi
+                <input type="checkbox" name="lang4" id="lang4" value="tel">Telugu
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="left"><input type="checkbox" name="dec" id="dec" value="dec">Hereby I declare all the given details are true</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right">Log in to <a href="https://www.ethnus.com">Ethnus</a> website</td>
+        </tr>
+    </table>
+    <br>
+    <input type="submit" value="Register">
+    </form>
+</body>
+</html>
